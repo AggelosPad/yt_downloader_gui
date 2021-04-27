@@ -20,7 +20,7 @@ class App(QMainWindow):
         self.setWindowTitle(self.title)
         self.setGeometry(self.left, self.top, self.width, self.height)
     
-        # Create textbox
+       
         self.textbox = QLineEdit(self)
         self.textbox.move(20, 20)
         self.textbox.resize(280,40)
@@ -31,7 +31,7 @@ class App(QMainWindow):
         self.Nametextbox.resize(280,40)
         self.Nametextbox.setPlaceholderText("Enter path to download:")
        
-        # Create a button in the window
+        
         self.button = QPushButton('Download mp4', self)
         self.button.move(20,140)
         
